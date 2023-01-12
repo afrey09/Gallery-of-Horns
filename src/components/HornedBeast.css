@@ -3,3 +3,11 @@ Img {
   height:250px;
 }
 
+.card {
+  margin-top:25px;
+  background-color:rgb(82, 186, 237);
+}
+
+.btn {
+  background-color:gray;
+}

@@ -15,6 +15,7 @@ handleFavorite = () => {
   this.setState({
     favorite: this.state.favorite + 1
   })
+  
 }
 
 favorited = () => {
@@ -23,24 +24,15 @@ favorited = () => {
   });
 }
 
+handleTitleClick = () => {
+  this.props.handleOpenModal(this.props.title, this.props.image_url, this.props.description)
+}
+
 render() {
   return (
     <>
-      {/* <article>
-        <h2>{this.props.title}</h2>
-        <p> {this.state.favorite}💜 </p>
-        <p onClick={this.handleFavorite} > Favorite</p>
-        <img
-          src={this.props.image_url}
-          alt={this.props.description}
-          title={this.props.title}
-        />
-        <p>{this.props.description}</p>
-     
-      </article> */}
-
       <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={this.props.image_url} />
+      <Card.Img variant="top" onClick={this.handleTitleClick} src={this.props.image_url} alt={this.props.description} />
       <Card.Body>
         <Card.Title>{this.props.title}</Card.Title>
         <Card.Text>
