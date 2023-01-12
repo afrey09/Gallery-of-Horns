@@ -42,7 +42,7 @@ class App extends React.Component {
       <Header/>
       <Main data={data}
         handleOpenModal={this.handleOpenModal}/>
-      <SelectedBeast data={data} showModal={this.state.showModal} handleCloseModal={this.handleCloseModal} selectedBeast ={this.state.selectedBeast} selectedBeastImg ={this.state.selectedBeastImg} selectBeastDesc ={this.state.selectedBeastDesc}/>
+      <SelectedBeast data={data} showModal={this.state.showModal} handleCloseModal={this.handleCloseModal} selectedBeast ={this.state.selectedBeast} selectedBeastImg ={this.state.selectedBeastImg} selectedBeastDesc ={this.state.selectedBeastDesc}/>
       <Footer/>
       </>
     )
