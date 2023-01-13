@@ -1,7 +1,7 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
 import './Main.css';
-import { Form, ListGroup } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
 
 class Main extends React.Component {
 
