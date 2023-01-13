@@ -108,3 +108,5 @@ Start time: 12:45
 Finish time: 5pm
 
 Actual time needed to complete: 4hr15min
+
+Lab 4 : Recieved help on lab from Joe Davitt and Jordan Covington
